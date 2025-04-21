@@ -2,7 +2,7 @@
 
 This project will come to deal with the placement of code and data in different memory types, memory types with and without ECC protection and low power retention (linker scripts) and enabling of some event (int.) based processes that cannot be blocked/interrupted by the RTOS scheduler. Here the components ThreadX (common & modules) and FileX will be included, in original condition (https://github.com/eclipse-threadx).
 
-The file example_build.c, is our "main". Our build starts some TX_THREADs/tasks that done some inter-comm (TX_QUEUE and TX_SEMAPHORE), there is also some TX_BYTE_POOL, nice.
+The file example_build.c, is our "main". Our build starts some TX_THREADs/tasks that done some inter-comm (TX_QUEUE and TX_EVENT_FLAGS), there is also some TX_SEMAPHORE and TX_BYTE_POOL, nice.
 
 The chip focus is on the MSPM0G series with dual CAN-FD and other strong peripherals at a favorable price.
 
