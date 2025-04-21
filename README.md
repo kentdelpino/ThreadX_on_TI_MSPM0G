@@ -7,7 +7,8 @@ The file example_build.c, is our "main". Our build starts some TX_THREADs/tasks 
 The chip focus is on the MSPM0G series with dual CAN-FD and other strong peripherals at a favorable price.
 
 The environment is TI CCSTUDIO-THEIA (like VScode), with: gcc-arm-none-eabi_10_3_2021, mspm0_sdk_2_04_00_06
-and sysconfig_1.23.0. Tested on a LP-MSPM0G3507. 
+and sysconfig_1.23.0 and of course Eclipse ThreadX, the first open source RTOS
+certified for Safety-Critical applications. Tested on a LP-MSPM0G3507. 
 
 <br />
 <br />
